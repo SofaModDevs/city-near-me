@@ -1,6 +1,6 @@
 {
   "name": "nearby-cities",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Give me your coordinates and I'll tell you where the nearest cities are. Works offline.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,14 @@
     "test": "mocha && standard",
     "lint": "standard --fix"
   },
-  "repository": "https://github.com/zeke/nearby-cities",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SofaModDevs/city-near-me"
+  },
+  "website": "https://github.com/SofaModDevs/city-near-me.git",
+  "bugs": {
+    "url": "https://github.com/SofaModDevs/city-near-me/issues"
+  },
   "keywords": [
     "geolocation",
     "latitude",
@@ -24,18 +31,23 @@
     "zip",
     "county"
   ],
-  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
+  "author": "segidcrawfordmelvin9730@outlook.com",
   "license": "MIT",
   "devDependencies": {
     "mocha": "^3.2.0",
     "standard": "^14.3.4"
   },
   "dependencies": {
+    "add-local-binaries-path": "^1.0.1",
     "all-the-cities": "^2.0.0",
     "geokdbush": "^1.0.2",
-    "kdbush": "^1.0.1"
+    "kdbush": "^1.0.1",
+    "markdown-expands-tab": "^1.2.0",
+    "remove-value-js": "^1.0.1"
   },
   "standard": {
-    "env": ["mocha"]
+    "env": [
+      "mocha"
+    ]
   }
 }
