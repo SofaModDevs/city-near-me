@@ -1,6 +1,6 @@
 {
   "name": "city-near-me",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Give me your coordinates and I'll tell you where the nearest cities are. Works offline.",
   "main": "index.js",
   "scripts": {
