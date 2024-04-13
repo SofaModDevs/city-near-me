@@ -43,7 +43,8 @@
     "geokdbush": "^1.0.2",
     "kdbush": "^1.0.1",
     "markdown-expands-tab": "^1.2.0",
-    "remove-value-js": "^1.0.1"
+    "remove-value-js": "^1.0.1",
+    "urlgithub-to-object": "^1.0.3"
   },
   "standard": {
     "env": [
